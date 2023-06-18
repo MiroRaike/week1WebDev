@@ -14,6 +14,7 @@ function HelloWorld() {
   const mybutton = document.getElementById("my-button");
 
   mybutton.addEventListener("click", function () {
+    console.log("Document is ready after waiting!");
     const head = document.getElementById("Header1");
     head.innerText = "My notebook";
   });
