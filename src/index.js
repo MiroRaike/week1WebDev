@@ -1,10 +1,8 @@
 if (document.readyState !== "loading") {
-  console.log("Document is ready!");
   HelloWorld();
   list();
 } else {
   document.addEventListener("DOMContentLoaded", function () {
-    console.log("Document is ready after waiting!");
     HelloWorld();
     list();
   });
